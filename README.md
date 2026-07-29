@@ -30,45 +30,47 @@ I programmed the original asteroids game with python.
 
 5. Verify Installation
   - Windows & Mac: python --version
-  - If a version appears in the output, you have python (e.g., Python 3.13.14) and can proceed to the "Navigate to the Directory" step below.
-  - If not, you did not successfully install python and will need to try again.
+    - If a version appears in the output, you have python (e.g., Python 3.13.14) and can proceed to the "Navigate to the Directory" step below.
+    - If not, you did not successfully install python and will need to try again.
 
 6. Confirm that Pip is installed.
-   - Windows PowerShell: pip --version
-   - Windows Command Prompt: python -m pip --version
-   - Mac Terminal: pip3 --version
-   - Mac Console: python3 -m pip --version
+  - Windows PowerShell: pip --version
+  - Windows Command Prompt: python -m pip --version
+  - Mac Terminal: pip3 --version
+  - Mac Console: python3 -m pip --version
   
    If a version appears in the output, you have pip (i.e., python's package manager) and can proceed to the "Confirm that Pygame is Installed" step below. 
    If not, you did not successfully install pip and will need to try again. 
    
-8. Install Pip
-   - Windows PowerShell:
-     - python -m ensurepip --default-pip
-     - python -m pip install --upgrade pip
+7. Install Pip
+  - Windows PowerShell:
+    - python -m ensurepip --default-pip
+    - python -m pip install --upgrade pip
   - Windows Command Prompt:
     - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     - python get-pip.py
   - Mac Terminal & Console:
     - python3 -m ensurepip --upgrade
 
-10. Confirm that Pygame is Installed.
-    - Windows PowerShell & Command Prompt: python -m ensurepip --upgrade
-    - Mac Terminal & Console: python3 -m ensurepip --upgrade
+8. Confirm that Pygame is Installed.
+  - Windows PowerShell & Command Prompt: python -m ensurepip --upgrade
+  - Mac Terminal & Console: python3 -m ensurepip --upgrade
     
-12. Install pygame
+9. Install pygame
    - Windows PowerShell & Command Prompt: pip install pygame
    - Mac Terminal: python3 -m pip install pygame
    - Mac Console: pip3 install pygame
 
-6. Navigate to the Directory 
-   If you saved the file on your desktop, you can use one of the following commands: 
-    - Windows PowerShell: cd ~\Desktop\asteroids-main
-    - Windows Command Prompt: cd /d %userprofile%\Desktop\asteroids-main
-    - Mac Terminal & Console: cd ~/Desktop/asteroids-main
+10. Navigate to the Directory
+    
+If you saved the file on your desktop, you can use one of the following commands: 
+- Windows PowerShell: cd ~\Desktop\asteroids-main
+- Windows Command Prompt: cd /d %userprofile%\Desktop\asteroids-main
+ - Mac Terminal & Console: cd ~/Desktop/asteroids-main
  
-7. Launch the game: <python_version> main.py
-   For example: python3 main.py
+12. Launch the game: <python_version> main.py
+
+For example: python3 main.py
 
 ## How to Play
 - Use the space bar to fire.
