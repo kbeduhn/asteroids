@@ -5,9 +5,9 @@ I programmed the original asteroids game with python.
 ## How to Install the Game 
 
 1. To play the game, go to the main page of the asteroids repo and then:
-- Click the green Code button in the upper right-hand corner.
-- Select "Download ZIP" from the drop-down menu.
-- Extract the file and save it on your computer desktop (or another location if preferred).
+- click the green "Code" button in the upper right-hand corner,
+- select "Download ZIP" from the drop-down menu, &
+- extract the file and save it on your computer desktop (or another location if preferred).
 
 2. Open a command-line environment. (Windows users: PowerShell or Command Prompt. Mac users: Terminal or Console.) 
 
