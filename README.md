@@ -76,7 +76,7 @@ If you saved the file on your desktop, you can use one of the following commands
 ## How to Play
 - Use the space bar to fire.
 - Use the W, A, S, and D keys to move.
-    w: go down
-    a: turn right
-    s: go up
-    d: turn left
+    - w: go down
+    - a: turn right
+    - s: go up
+    - d: turn left
