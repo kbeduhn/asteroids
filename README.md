@@ -57,9 +57,9 @@ I programmed the original asteroids game with python.
   - Mac Terminal & Console: python3 -m ensurepip --upgrade
     
 9. Install pygame
-   - Windows PowerShell & Command Prompt: pip install pygame
-   - Mac Terminal: python3 -m pip install pygame
-   - Mac Console: pip3 install pygame
+  - Windows PowerShell & Command Prompt: pip install pygame
+  - Mac Terminal: python3 -m pip install pygame
+  - Mac Console: pip3 install pygame
 
 10. Navigate to the Directory
     
@@ -69,8 +69,7 @@ If you saved the file on your desktop, you can use one of the following commands
  - Mac Terminal & Console: cd ~/Desktop/asteroids-main
  
 12. Launch the game: <python_version> main.py
-
-For example: python3 main.py
+  - For example: python3 main.py
 
 ## How to Play
 - Use the space bar to fire.
