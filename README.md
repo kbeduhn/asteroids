@@ -11,11 +11,10 @@ I programmed the original asteroids game with python.
 
 2. Open a command-line environment. (Windows users: PowerShell or Command Prompt. Mac users: Terminal or Console.) 
 
-3. Confirm that you have python installed.
-- Windows and Mac users should type the following in the command-line environment: python --version
-  
+3. Confirm that Python is Installed
+- Windows and Mac users should type the following in the command-line interface (CLI): python --version
   (The CLI is the screen that pops up when you open a command-line environment.)
-  - If a version appears in the output, you have python (e.g., Python 3.13.14) and can proceed to the "Install pygame" step below. 
+  - If a version appears in the output, you have python (e.g., Python 3.13.14) and can proceed to the "Confirm that Pip is Installed" step below. 
   - If a version does not appear in the output, you need to install python.
 
 4. Install Python
@@ -30,10 +29,10 @@ I programmed the original asteroids game with python.
 
 5. Verify Installation
   - Windows & Mac: python --version
-    - If a version appears in the output, you have python (e.g., Python 3.13.14) and can proceed to the "Navigate to the Directory" step below.
+    - If a version appears in the output, you have python (e.g., Python 3.13.14) and can proceed to the "Confirm that Pip is Installed" step below.
     - If not, you did not successfully install python and will need to try again.
 
-6. Confirm that Pip is installed.
+6. Confirm that Pip is Installed
   - Windows PowerShell: pip --version
   - Windows Command Prompt: python -m pip --version
   - Mac Terminal: pip3 --version
@@ -52,11 +51,14 @@ I programmed the original asteroids game with python.
   - Mac Terminal & Console:
     - python3 -m ensurepip --upgrade
 
-8. Confirm that Pygame is Installed.
+8. Confirm that Pygame is Installed
   - Windows PowerShell & Command Prompt: python -m ensurepip --upgrade
   - Mac Terminal & Console: python3 -m ensurepip --upgrade
+
+  If a version appears in the output, you have pygame (i.e., a python library for games) and can proceed to the "Navigate to the Directory" step below. 
+  If not, you did not successfully install pygame and will need to try again. 
     
-9. Install pygame
+9. Install Pygame
   - Windows PowerShell & Command Prompt: pip install pygame
   - Mac Terminal: python3 -m pip install pygame
   - Mac Console: pip3 install pygame
